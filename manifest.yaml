@@ -1,0 +1,16 @@
+image: randomninjaatk/lidarr-lad:latest
+manifests:
+  - image: randomninjaatk/lidarr-lad:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: randomninjaatk/lidarr-lad:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+  - image: randomninjaatk/lidarr-lad:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
